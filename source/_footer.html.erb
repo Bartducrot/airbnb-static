@@ -1,12 +1,14 @@
 <!-- _footer.erb -->
 
-<div id="footer">
+<div id="footer" class="wrapper-grey">
   <!-- Your footer code goes here -->
 
   <ul class="list-inline">
-    <% ["facebook", "instagram", "github"].each do |media| %>
+    <% ["facebook", "instagram", "github", "twitter", "snapchat"].each do |media| %>
       <li>
-        <%= link_to "#{media}", "#", class: "btn btn-primary" %>
+        <% link_to "http://www.#{media}.com", target: "_blank" do %>
+          <i class="fa fa-<%=media%>"></i>
+        <% end %>
       </li>
     <% end %>
   </ul>

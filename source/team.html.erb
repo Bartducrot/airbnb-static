@@ -1,8 +1,8 @@
 <h2 class="text-center padded">Our team</h2>
 <ul class="list-inline text-center">
-  <% ["boris", "seb", "romain"].each do |member| %>
+  <% ["anne", "seb", "romain"].each do |member| %>
     <li>
-      <%= image_tag "http://placehold.it/100x100", class: "img-circle" %>
+      <%= image_tag "#{member}.jpg", class: "img-circle avatar-large" %>
       <h3><%= member.capitalize %></h3>
     </li>
   <% end %>
