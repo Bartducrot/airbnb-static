@@ -1,0 +1,17 @@
+.owner-card {
+  position: relative;
+  background: rgba(50,50,50,0.2);
+  height: 200px;
+  padding: 40px;
+  margin: 20px 0;
+  .profile {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .flat-description {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}

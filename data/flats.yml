@@ -26,8 +26,18 @@ michel:
   summary: Mich-Mich House
   city: Brussels, Belgium
   wifi: false
-  rating: 99
+  rating: 6
   nb_of_guest: 15
+anne:
+  owner_name: Anne Collet
+  picture: card-brussels.jpg
+  owner_picture: anne.jpg
+  name: Anne's home
+  summary: Nice flat in Brussels
+  city: Brussels, Belgium
+  wifi: false
+  rating: 4
+  nb_of_guest: 6
 hubert:
   owner_name: Hubert Bonisseur de la Bath
   picture: card-paris.jpg
